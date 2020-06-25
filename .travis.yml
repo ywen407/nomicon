@@ -20,5 +20,6 @@ deploy:
   skip_cleanup: true
   keep-history: false
   local_dir: book/html
+  github_token: $GITHUB_TOKEN
   on:
     branch: master
